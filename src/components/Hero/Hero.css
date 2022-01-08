@@ -32,6 +32,7 @@
 
 @media screen and (max-width: 494px) {
     .hero {
+        background-image: none;
         background-color: var(--bg-color);
     }
 
