@@ -13,6 +13,10 @@ const Product = () => {
 			<div className="image">
 				<img src={img} alt="" width="200" height="200" />
 			</div>
+			<div className="product-info">
+				<h4 className="name">Nike shoe</h4>
+				<p className="price">Ksh. 3500.00</p>
+			</div>
 			<div className="product-cta">
 				<IconButton>
 					<InfoOutlinedIcon />

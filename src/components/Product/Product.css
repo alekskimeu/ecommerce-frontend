@@ -23,8 +23,7 @@
     height: 160px;
     width: 160px;
     position: absolute;
-    top: 0;
-    bottom: 0;
+    top: 4rem;    
     right: 0;
     left: 0;
     z-index: -1;
@@ -55,4 +54,19 @@
 
 .product-cta .MuiSvgIcon-root {
     color: var(--primary);
+}
+
+.product-info {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.product-info .name {
+    color: var(--secondary);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.product-info .price {
+    font-weight: bold;
 }

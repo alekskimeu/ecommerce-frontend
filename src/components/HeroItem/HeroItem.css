@@ -81,10 +81,9 @@
 }
 
 .hero-item-name {
-    color: var(--primary);
-    opacity: .9;
+    color: var(--secondary);
     font-size: 1.3rem;
-    font-weight: normal;
+    font-weight: 600;
 }
 
 .hero-item-price {
