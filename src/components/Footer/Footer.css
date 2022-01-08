@@ -1,0 +1,19 @@
+.footer {
+    position: absolute;
+    color: #ffffff;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    border-top: 1px dashed rgb(54, 54, 54);
+    opacity: .7;
+}
+
+.footer .copyright {
+    text-align: center;
+}

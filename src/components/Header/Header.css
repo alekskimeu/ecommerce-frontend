@@ -1,0 +1,106 @@
+.header {
+    width: 100%;
+    padding: .3rem 0;
+    border-bottom: 1px dashed rgb(54, 54, 54);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: var(--bg-color);
+}
+
+.header .brand, .header .header-menu {
+    flex: .4;
+}
+
+.header .brand img {
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+@media screen and (max-width: 924px) {
+    .header .brand img {
+        width: 50px;
+    }    
+}
+
+.header .search {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .header .search {
+        display: none;
+    }
+}
+
+.header .search .MuiSvgIcon-root {
+    position: absolute;
+    right: 20%;
+    color: var(--primary);
+    font-size: 3rem;
+    margin-top: 0.1rem;
+    padding: 0.1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.header .search-input {
+    outline-width: 0;
+    border: none;
+    padding: .8rem 1.2rem;
+    width: 80%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    font-size: 1.2rem;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu .MuiSvgIcon-root {
+    color: var(--primary);
+}
+
+@media screen and (max-width: 1172px) {
+    .header-menu .MuiSvgIcon-root {
+        display: none;
+    }
+
+    .header .search-input {
+        width: 100%;
+    }
+
+    .header .search .MuiSvgIcon-root {
+        right: 0;
+    }
+    
+}
+.header-menu .name {
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.header-menu .name .MuiSvgIcon-root {
+    color: var(--primary);
+    font-size: 1.8rem;
+    margin-top: 0.2rem;
+    display: inline-block;
+}

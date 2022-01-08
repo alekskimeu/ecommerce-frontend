@@ -1,0 +1,99 @@
+.hero-item {
+    padding: 1rem 2rem;
+    background-color: white;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    position: relative;
+    text-align: center;
+    min-width: 320px;
+}
+
+@media screen and (max-width: 1176px) {
+    .hero-item:last-child {
+        display: none;
+    }  
+}
+
+@media screen and (max-width: 860px) {
+    .hero-item:nth-child(2) {
+        display: none;
+    }  
+}
+
+@media screen and (max-width: 560px) {
+    .hero-item {
+        max-width: 300px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 494px) {
+    .hero-item {
+        max-width: 100%;
+    }
+}
+
+
+.hero-item-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.hero-item-header .MuiSvgIcon-root {
+    color: var(--primary);
+    font-size: 1.8rem;
+    opacity: .8;
+}
+
+.hero-banner {
+    height: 80px;
+    max-width: 240px;
+    border-radius: 2rem;
+    background-color: rgb(88, 2, 88);
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    left: 0;
+    right: 0;
+    top: 5rem;
+    margin: 0 auto 1rem auto;
+    position: absolute;
+}
+
+.hero-item img {
+    object-fit: cover;
+    margin: 3rem 0 1rem 0;
+}
+
+.hero-circle {
+    background-color: var(--primary);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 3px solid white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.hero-item-name {
+    color: var(--primary);
+    opacity: .9;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.hero-item-price {
+    color: var(--bg-color);
+    font-weight: bold;
+}

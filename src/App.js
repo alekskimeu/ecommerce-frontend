@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from "react";
+import {
+	Ad,
+	Footer,
+	Header,
+	Hero,
+	Loader,
+	Products,
+	Subscribe,
+} from "./components";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+	const [loading, setLoading] = useState(true);
+
+	// Delay product display to display Birthday message
+	setTimeout(() => setLoading(false), 8000);
+
+	return !loading ? (
+		<div className="app">
+			<div className="app-wrapper container">
+				<Header />
+				<Hero />
+				<Products />
+				<Ad />
+				<Products />
+				<Subscribe />
+				<Products />
+			</div>
+			<Footer />
+		</div>
+	) : (
+		<div className="loader-container">
+			<Loader />
+		</div>
+	);
+};
 
 export default App;
+
+// Overflow X issue
+// Backend
+// API connection
+// Meta description
