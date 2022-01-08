@@ -1,6 +1,6 @@
 .header {
-    width: 100%;
-    padding: .3rem 0;
+    width: 100vw;
+    padding: .3rem 2rem;
     border-bottom: 1px dashed rgb(54, 54, 54);
     display: flex;
     justify-content: space-between;
@@ -68,8 +68,10 @@
 }
 
 .header-menu {
+    flex: .4;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
     align-items: center;
 }
 

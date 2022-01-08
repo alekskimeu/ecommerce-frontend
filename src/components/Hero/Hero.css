@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 
 .hero {
-    background-color: var(--primary);
+    background-image: linear-gradient(to right, var(--secondary), var(--primary));
     padding: 1rem;
     border-radius: 2rem;
     -webkit-border-radius: 2rem;
@@ -9,7 +9,9 @@
     -ms-border-radius: 2rem;
     -o-border-radius: 2rem;
     height: 20rem;
-    margin-top: 10rem;
+    margin: 10rem auto 0 auto;
+    max-width: 90vw;
+    opacity: .8;
 }
 
 .hero .heading {

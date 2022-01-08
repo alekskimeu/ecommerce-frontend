@@ -10,7 +10,7 @@ import "./Header.css";
 
 const Header = () => {
 	return (
-		<div className="header container">
+		<div className="header">
 			<div className="brand">
 				<img src={logo} alt="" width="80" />
 			</div>

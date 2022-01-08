@@ -11,8 +11,15 @@
     z-index: -1;
 }
 
+.product .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .product-circle {
     background-color: rgb(88, 2, 88);
+    opacity: .8;
     height: 160px;
     width: 160px;
     position: absolute;

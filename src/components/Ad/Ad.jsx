@@ -5,7 +5,7 @@ import "./Ad.css";
 
 const Ad = () => {
 	return (
-		<div className="ad container">
+		<div className="ad">
 			<div className="ad-container">
 				<div className="ad-image">
 					<img src={img} alt="" width="400" height="300" />

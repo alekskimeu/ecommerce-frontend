@@ -18,7 +18,7 @@ const App = () => {
 
 	return !loading ? (
 		<div className="app">
-			<div className="app-wrapper container">
+			<div className="app-wrapper">
 				<Header />
 				<Hero />
 				<Products />

@@ -5,7 +5,7 @@ import img from "../../assets/subscribe.png";
 
 const Subscribe = () => {
 	return (
-		<div className="subscribe container">
+		<div className="subscribe">
 			<div className="subscribe-info">
 				<h3 className="heading">Join our mail list</h3>
 				<p className="desc">

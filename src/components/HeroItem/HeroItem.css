@@ -8,7 +8,7 @@
     -o-border-radius: 2rem;
     position: relative;
     text-align: center;
-    min-width: 320px;
+    min-width: 25vw;
 }
 
 @media screen and (max-width: 1176px) {
@@ -21,13 +21,6 @@
     .hero-item:nth-child(2) {
         display: none;
     }  
-}
-
-@media screen and (max-width: 560px) {
-    .hero-item {
-        max-width: 300px;
-        margin: auto;
-    }
 }
 
 @media screen and (max-width: 494px) {
@@ -53,7 +46,7 @@
     height: 80px;
     max-width: 240px;
     border-radius: 2rem;
-    background-color: rgb(88, 2, 88);
+    background-color: var(--primary);
     -webkit-border-radius: 2rem;
     -moz-border-radius: 2rem;
     -ms-border-radius: 2rem;
@@ -71,7 +64,8 @@
 }
 
 .hero-circle {
-    background-color: var(--primary);
+    background-color: var(--secondary);
+    opacity: .8;
     width: 80px;
     height: 80px;
     position: absolute;

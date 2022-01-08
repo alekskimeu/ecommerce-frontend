@@ -10,7 +10,9 @@ const Product = () => {
 	return (
 		<div className="product">
 			<div className="product-circle"></div>
-			<img src={img} alt="" width="200" height="200" />
+			<div className="image">
+				<img src={img} alt="" width="200" height="200" />
+			</div>
 			<div className="product-cta">
 				<IconButton>
 					<InfoOutlinedIcon />
