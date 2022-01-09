@@ -71,11 +71,13 @@
 .products-nav-right {
     position: absolute;
     right: -10px;
+    z-index: 1;
 }
 
 .products-nav-left {
     position: absolute;
     left: -10px;
+    z-index: 1;
 }
 
 @media screen and (max-width: 1120px) {

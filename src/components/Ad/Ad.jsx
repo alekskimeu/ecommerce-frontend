@@ -8,7 +8,7 @@ const Ad = () => {
 		<div className="ad">
 			<div className="ad-container">
 				<div className="ad-image">
-					<img src={img} alt="" width="400" height="300" />
+					<img src={img} alt="" width="400" height="300" loading="lazy" />
 				</div>
 				<div className="ad-info">
 					<h3 className="heading">Quality Items</h3>

@@ -76,6 +76,10 @@
     justify-content: end;
 }
 
+.subscribe-image img {
+    max-width: 100%;
+}
+
 @media screen and (max-width: 1000px) {
     .subscribe-image {
         display: none;

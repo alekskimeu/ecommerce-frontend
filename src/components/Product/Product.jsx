@@ -9,9 +9,8 @@ import "./Product.css";
 const Product = () => {
 	return (
 		<div className="product">
-			<div className="product-circle"></div>
 			<div className="image">
-				<img src={img} alt="" width="200" height="200" />
+				<img src={img} alt="" width="200" height="200" loading="lazy" />
 			</div>
 			<div className="product-info">
 				<h4 className="name">Nike shoe</h4>

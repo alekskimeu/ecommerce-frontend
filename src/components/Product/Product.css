@@ -8,40 +8,56 @@
     box-shadow: 4px 8px 16px var(--shadow);
     padding: 1rem;
     position: relative;
-    z-index: -1;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.product:hover {
+    box-shadow: 6px 12px 24px var(--shadow);
+    opacity: .8;
 }
 
 .product .image {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
-.product-circle {
-    background-color: rgb(88, 2, 88);
-    opacity: .8;
+.product img {
+    max-width: 100%;
+    z-index: 1;
+}
+
+
+
+.product .image::after {
+    content: "";
+    background-color: var(--secondary);
+    position: absolute;
     height: 160px;
     width: 160px;
-    position: absolute;
-    top: 4rem;    
-    right: 0;
-    left: 0;
-    z-index: -1;
-    margin: auto;
+    top: 4rem;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    opacity: .7;
 }
 
 .product-cta {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 0.5rem;
 }
 
 .product-cta a {
+    cursor: pointer;
     padding: .4rem 1rem;
     color: white;
     margin-top: 0.5rem;
@@ -53,7 +69,10 @@
 }
 
 .product-cta .MuiSvgIcon-root {
+    cursor: pointer;
     color: var(--primary);
+    font-weight: 700;
+    font-size: 1.6rem;
 }
 
 .product-info {

@@ -43,3 +43,4 @@ export default App;
 // API connection
 // Meta description
 // README
+// Lazy loading

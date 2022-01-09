@@ -76,6 +76,15 @@
 }
 
 .header-menu .MuiSvgIcon-root {
+    color: white;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.header-menu .MuiSvgIcon-root:hover {
     color: var(--primary);
 }
 
@@ -94,14 +103,24 @@
     
 }
 .header-menu .name {
-    color: var(--primary);
+    color: white;
     display: flex;
     align-items: center;
     font-size: 1.2rem;
+    cursor: pointer;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.header-menu .name:hover {
+    color: var(--primary);
 }
 
 .header-menu .name .MuiSvgIcon-root {
-    color: var(--primary);
+    color: white;
     font-size: 1.8rem;
     margin-top: 0.2rem;
     display: inline-block;

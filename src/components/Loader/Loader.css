@@ -17,6 +17,7 @@
     left: 0;
     right: 0;
     margin: auto;
+    max-width: 100%;
     background-color: white;
     border-radius: 50%;
     -webkit-border-radius: 50%;

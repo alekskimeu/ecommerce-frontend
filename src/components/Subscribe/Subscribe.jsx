@@ -10,7 +10,7 @@ const Subscribe = () => {
 				<h3 className="heading">Join our mail list</h3>
 				<p className="desc">
 					The world breaks everyone, and afterwards, many are strong at the
-					broken places
+					broken places.
 				</p>
 				<div className="subscribe-input">
 					<input type="email" className="input" placeholder="Email address" />
@@ -20,7 +20,7 @@ const Subscribe = () => {
 				</div>
 			</div>
 			<div className="subscribe-image">
-				<img src={img} alt="" width="300" height="300" />
+				<img src={img} alt="" width="300" height="300" loading="lazy" />
 			</div>
 		</div>
 	);

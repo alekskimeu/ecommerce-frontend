@@ -12,7 +12,7 @@ const Products = () => {
 	return (
 		<div className="products container">
 			<div className="products-header">
-				<h3 className="products-heading">Male</h3>
+				<h3 className="products-heading">Featured</h3>
 
 				<div className="products-header-nav">
 					<h4>All Items</h4>

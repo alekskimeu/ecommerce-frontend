@@ -20,7 +20,7 @@ const HeroItem = () => {
 			<div className="hero-banner">
 				<div className="hero-circle"></div>
 			</div>
-			<img src={img} alt="" width="150" height="150" />
+			<img src={img} alt="" width="150" height="150" loading="lazy" />
 			<h4 className="hero-item-name">Nike shoe</h4>
 			<p className="hero-item-price">Ksh. 3500.00</p>
 		</div>

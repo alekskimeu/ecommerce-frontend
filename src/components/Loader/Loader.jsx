@@ -7,7 +7,7 @@ const Loader = () => {
 		<div className="loader">
 			<div className="container">
 				<div className="loader-wrapper">
-					<img src={img} alt="" width="200" height="200" />
+					<img src={img} alt="" width="200" height="200" loading="lazy" />
 					<h3 className="heading">🎈🎈Happy Birthday 🎈🎈</h3>
 					<p className="desc">
 						To the only girl who knows my passwords, 2FA device & the answers to

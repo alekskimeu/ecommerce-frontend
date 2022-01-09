@@ -9,6 +9,16 @@
     position: relative;
     text-align: center;
     min-width: 25vw;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.hero-item:hover {
+    box-shadow: 4px 8px 16px var(--shadow);
+    opacity: .8;
 }
 
 @media screen and (max-width: 1176px) {
@@ -61,6 +71,7 @@
 .hero-item img {
     object-fit: cover;
     margin: 3rem 0 1rem 0;
+    max-width: 100%;
 }
 
 .hero-circle {
