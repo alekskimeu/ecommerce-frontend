@@ -13,7 +13,7 @@ import { newProducts, topProducts, featuredProducts } from "./data";
 import "./App.css";
 
 const App = () => {
-	const [loading, setLoading] = useState(true);
+	const [loading, setLoading] = useState(false);
 
 	// Delay product display to display Birthday message
 	setTimeout(() => setLoading(false), 8000);
