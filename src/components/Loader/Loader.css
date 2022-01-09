@@ -26,12 +26,16 @@
     -o-border-radius: 50%;
 }
 
+
+
 .loader-wrapper .heading {
     margin-top: 8rem;
     text-transform: uppercase;
     font-size: 2.4rem;
     margin-bottom: 1rem;
 }
+
+
 
 .loader-wrapper .desc {
     font-size: 1.5rem;
@@ -41,4 +45,25 @@
 .loader-wrapper .sender {
     margin-top: 1rem;
     font-size: 1.3rem;
+}
+
+@media screen and (max-width: 660px) {
+    .loader-wrapper {
+        padding: 1rem;
+    }
+    .loader-wrapper img {
+        display: none;
+    }    
+    .loader-wrapper .heading {
+        margin-top: 1rem;
+        font-style: 1.6rem;
+    }
+
+    .loader-wrapper .desc {
+        font-size: 1.3rem;
+    }
+
+    .loader-wrapper .sender {
+        font-size: 1.2rem;
+    }
 }

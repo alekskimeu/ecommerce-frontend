@@ -125,7 +125,7 @@ export const message = [
 	{
 		id: 1,
 		image: photo,
-		title: "🎈🎈HAPPY BIRTHDAY 🎈🎈",
+		title: "🎈HAPPY BIRTHDAY🎈",
 		content:
 			"Although I never really enjoyed sharing my things with you I have always enjoyed sharing our childhood and love for each other. You’re most precious to me. It was such a great experience to grow up with a crazy and fun girl like you. I cherish all our sweet and exciting childhood memories. For me, you will always be that adorable little sister, happy birthday!",
 		name: "Joy",
