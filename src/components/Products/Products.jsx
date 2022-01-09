@@ -8,11 +8,11 @@ import { Product } from "..";
 import "./Products.css";
 import { IconButton } from "@material-ui/core";
 
-const Products = () => {
+const Products = ({ products, title }) => {
 	return (
 		<div className="products container">
 			<div className="products-header">
-				<h3 className="products-heading">Featured</h3>
+				<h3 className="products-heading">{title}</h3>
 
 				<div className="products-header-nav">
 					<h4>All Items</h4>
@@ -30,11 +30,9 @@ const Products = () => {
 						<ChevronRightOutlinedIcon />
 					</IconButton>
 				</div>
-				<Product />
-				<Product />
-				<Product />
-				<Product />
-				<Product />
+				{products.map((product) => (
+					<Product product={product} key={product.id} />
+				))}
 			</div>
 		</div>
 	);

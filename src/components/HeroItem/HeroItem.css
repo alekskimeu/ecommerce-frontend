@@ -63,14 +63,14 @@
     -o-border-radius: 2rem;
     left: 0;
     right: 0;
-    top: 5rem;
+    top: 4rem;
     margin: 0 auto 1rem auto;
     position: absolute;
 }
 
 .hero-item img {
     object-fit: cover;
-    margin: 3rem 0 1rem 0;
+    margin: 4rem 0 1rem 0;
     max-width: 100%;
 }
 

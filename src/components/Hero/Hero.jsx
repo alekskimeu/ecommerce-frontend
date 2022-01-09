@@ -1,6 +1,7 @@
 import React from "react";
 import { HeroItem } from "..";
 
+import { displayProducts } from "../../data";
 import "./Hero.css";
 
 const Hero = () => {
@@ -8,9 +9,9 @@ const Hero = () => {
 		<div className="hero">
 			<h3 className="heading">Santy's Night Light</h3>
 			<div className="hero-wrapper">
-				<HeroItem />
-				<HeroItem />
-				<HeroItem />
+				{displayProducts.map((product) => (
+					<HeroItem key={product.id} product={product} />
+				))}
 			</div>
 		</div>
 	);

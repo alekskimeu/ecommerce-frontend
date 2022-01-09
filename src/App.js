@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import {
 	Ad,
 	Footer,
@@ -8,6 +8,8 @@ import {
 	Products,
 	Subscribe,
 } from "./components";
+import { newProducts, topProducts, featuredProducts } from "./data";
+
 import "./App.css";
 
 const App = () => {
@@ -21,11 +23,13 @@ const App = () => {
 			<div className="app-wrapper">
 				<Header />
 				<Hero />
-				<Products />
+				{featuredProducts && (
+					<Products title="Featured" products={featuredProducts} />
+				)}
 				<Ad />
-				<Products />
+				{newProducts && <Products title="New" products={newProducts} />}
 				<Subscribe />
-				<Products />
+				{topProducts && <Products title="Top" products={topProducts} />}
 			</div>
 			<Footer />
 		</div>

@@ -3,18 +3,23 @@ import { IconButton } from "@material-ui/core";
 import InfoOutlinedIcon from "@material-ui/icons/InfoOutlined";
 import AddShoppingCartOutlined from "@material-ui/icons/AddShoppingCartOutlined";
 
-import img from "../../assets/pop.png";
 import "./Product.css";
 
-const Product = () => {
+const Product = ({ product }) => {
 	return (
 		<div className="product">
 			<div className="image">
-				<img src={img} alt="" width="200" height="200" loading="lazy" />
+				<img
+					src={product.image}
+					alt=""
+					width="200"
+					height="200"
+					loading="lazy"
+				/>
 			</div>
 			<div className="product-info">
-				<h4 className="name">Nike shoe</h4>
-				<p className="price">Ksh. 3500.00</p>
+				<h4 className="name">{product.name}</h4>
+				<p className="price">Ksh. {product.price}</p>
 			</div>
 			<div className="product-cta">
 				<IconButton>
