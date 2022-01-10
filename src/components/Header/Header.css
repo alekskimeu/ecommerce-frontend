@@ -1,11 +1,10 @@
 .header {
-    width: 100vw;
+    width: 100%;
     padding: .3rem 2rem;
     border-bottom: 1px dashed rgb(54, 54, 54);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 3rem;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -13,7 +12,7 @@
 }
 
 .header .brand, .header .header-menu {
-    flex: .3;
+    flex: .4;
 }
 
 .header .header-nav {
@@ -92,7 +91,7 @@
     -o-transition: all .5s ease;
 }
 
-.header-menu .MuiSvgIcon-root:hover {
+.header-menu .menu-items  .MuiSvgIcon-root:hover {
     color: var(--primary);
 }
 
@@ -100,6 +99,11 @@
     .header-menu .MuiSvgIcon-root {
         display: none;
     }    
+
+    .header .header-menu {
+        flex: 1;
+        justify-content: space-evenly;
+    }
 }
 .header-menu .name {
     color: white;
@@ -118,9 +122,126 @@
     color: var(--primary);
 }
 
+.header-menu .name:hover .MuiSvgIcon-root {
+    color: var(--primary);
+}
+
 .header-menu .name .MuiSvgIcon-root {
     color: white;
     font-size: 1.8rem;
     margin-top: 0.2rem;
     display: inline-block;
+}
+
+.header-account {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header-account a {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.header-account .btn-login {
+    background-color: var(--primary);
+    border: none;
+    padding: 1rem 1.2rem;
+}
+
+.header-account a:hover {
+    opacity: .8;
+}
+
+.header-account .btn-register {
+    padding: .8rem 1.2rem;
+    background-color: transparent;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+
+.header .account-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+}
+
+.header .account-info .dropdown-menu {
+    position: absolute;
+    top: 2.5rem;
+    left: -4rem;
+    background-color: whitesmoke;
+    padding: 1.6rem;
+    display: none;
+    flex-direction: column;
+    min-width: 13vw;
+    gap: 1rem;
+    transition: all .3s ease;
+    border-radius: .3rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.header .account-info .dropdown-menu a {
+    font-size: 1.4rem;
+    letter-spacing: 1.4px;
+    color: var(--primary);
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.header .account-info .dropdown-menu .btn-logout {
+    font-size: 1.3rem;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--primary);
+    background-color: var(--primary);
+    color: white;
+    padding: .3rem .8rem;
+    text-align: center;
+    transition: all .5s ease;
+    border-radius: .3rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.header .account-info .btn-logout:hover {
+    background-color: transparent;
+    color: var(--primary);
+}
+
+.btn-login .MuiSvgIcon-root {
+    margin-left: 0.3rem;
 }

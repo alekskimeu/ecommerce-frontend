@@ -17,14 +17,12 @@ body {
   font-family: 'Titillium Web', sans-serif;
   overflow-x: hidden;
   background-color: var(--bg-color);
-  width: 100vw;
-  padding: 0 2rem;
 }
 
 h1,h2,h3,h4,h5,h6,p,a, button{letter-spacing: 2px;}
 
 .container {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: auto;
 }
 

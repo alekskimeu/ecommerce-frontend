@@ -1,5 +1,4 @@
 import image from "./assets/pop.png";
-import photo from "./assets/subscribe.png";
 
 export const displayProducts = [
 	{
@@ -120,4 +119,3 @@ export const featuredProducts = [
 		price: 35.0,
 	},
 ];
-
