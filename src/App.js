@@ -1,14 +1,6 @@
 import { useState } from "react";
-import {
-	Ad,
-	Footer,
-	Header,
-	Hero,
-	Loader,
-	Products,
-	Subscribe,
-} from "./components";
-import { newProducts, topProducts, featuredProducts } from "./data";
+import Home from "./pages/Home";
+import { Footer, Header, Loader } from "./components";
 
 import "./App.css";
 
@@ -22,14 +14,7 @@ const App = () => {
 		<div className="app">
 			<div className="app-wrapper">
 				<Header />
-				<Hero />
-				{featuredProducts && (
-					<Products title="Featured" products={featuredProducts} />
-				)}
-				<Ad />
-				{newProducts && <Products title="New" products={newProducts} />}
-				<Subscribe />
-				{topProducts && <Products title="Top" products={topProducts} />}
+				<Home />
 			</div>
 			<Footer />
 		</div>

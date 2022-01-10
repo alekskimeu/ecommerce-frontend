@@ -7,7 +7,7 @@ import "./Hero.css";
 const Hero = () => {
 	return (
 		<div className="hero">
-			<h3 className="heading">Santy's Night Light</h3>
+			<h3 className="heading">Noelas Shop</h3>
 			<div className="hero-wrapper">
 				{displayProducts.map((product) => (
 					<HeroItem key={product.id} product={product} />
