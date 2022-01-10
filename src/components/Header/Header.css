@@ -7,7 +7,7 @@
     align-items: center;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     background-color: var(--bg-color);
 }
 
@@ -94,16 +94,24 @@
 .header .cart-counter, .header .notification-counter {
     position: absolute;
     color: white;
-    top: -2px;
-    right: 2px;
+    border: 2px solid white;
+    top: -5px;
+    right: -2px;
     background-color: var(--secondary);
     font-size:1rem;
-    padding: 1.5px 6px;
+    padding: 2.7px 6px 1px 6px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+.header .menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
 }
 
 .header-menu .menu-items  .MuiSvgIcon-root:hover {

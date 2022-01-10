@@ -21,7 +21,7 @@ const Header = () => {
 			<div className="brand">
 				<img src={logo} alt="" width="80" />
 			</div>
-			<div className="header-div">
+			<div className="header-nav">
 				<Link to="/">Home</Link>
 				<Link to="/shop">Shop</Link>
 				<Link to="/about">About</Link>

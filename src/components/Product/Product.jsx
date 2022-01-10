@@ -1,5 +1,5 @@
 import React from "react";
-import { IconButton } from "@material-ui/core";
+import { Link } from "react-router-dom";
 import InfoOutlinedIcon from "@material-ui/icons/InfoOutlined";
 import AddShoppingCartOutlined from "@material-ui/icons/AddShoppingCartOutlined";
 
@@ -22,12 +22,14 @@ const Product = ({ product }) => {
 				<p className="price">Ksh. {product.price}</p>
 			</div>
 			<div className="product-cta">
-				<IconButton>
+				<Link to="/" className="btn-more">
+					View
 					<InfoOutlinedIcon />
-				</IconButton>
-				<IconButton>
+				</Link>
+				<Link to="/" className="btn-cart">
+					Cart
 					<AddShoppingCartOutlined />
-				</IconButton>
+				</Link>
 			</div>
 		</div>
 	);

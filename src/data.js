@@ -46,12 +46,6 @@ export const newProducts = [
 		image: image,
 		price: 35.0,
 	},
-	{
-		id: 5,
-		name: "Decor 1",
-		image: image,
-		price: 35.0,
-	},
 ];
 
 export const topProducts = [
@@ -79,12 +73,6 @@ export const topProducts = [
 		image: image,
 		price: 35.0,
 	},
-	{
-		id: 5,
-		name: "Decor 1",
-		image: image,
-		price: 35.0,
-	},
 ];
 
 export const featuredProducts = [
@@ -108,12 +96,6 @@ export const featuredProducts = [
 	},
 	{
 		id: 4,
-		name: "Decor 1",
-		image: image,
-		price: 35.0,
-	},
-	{
-		id: 5,
 		name: "Decor 1",
 		image: image,
 		price: 35.0,

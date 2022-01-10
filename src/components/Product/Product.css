@@ -17,7 +17,6 @@
 
 .product:hover {
     box-shadow: 6px 12px 24px var(--shadow);
-    opacity: .8;
 }
 
 .product .image {
@@ -31,8 +30,6 @@
     max-width: 100%;
     z-index: 1;
 }
-
-
 
 .product .image::after {
     content: "";
@@ -53,26 +50,52 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
 
 .product-cta a {
     cursor: pointer;
-    padding: .4rem 1rem;
+    padding: .3rem 1.2rem;
+    font-size: 1.1rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.product-cta .btn-more {
+    background-color: var(--primary);
     color: white;
-    margin-top: 0.5rem;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.product-cta .btn-cart {
+    background-color: var(--secondary);
+    color: white;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.product-cta .btn-more:hover, .product-cta .btn-cart:hover {
+    opacity: .9;
 }
 
 .product-cta .MuiSvgIcon-root {
     cursor: pointer;
-    color: var(--primary);
+    color: white;
     font-weight: 700;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
+    margin-left: 0.3rem;
 }
 
 .product-info {
