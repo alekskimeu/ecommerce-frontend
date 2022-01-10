@@ -91,6 +91,21 @@
     -o-transition: all .5s ease;
 }
 
+.header .cart-counter, .header .notification-counter {
+    position: absolute;
+    color: white;
+    top: -2px;
+    right: 2px;
+    background-color: var(--secondary);
+    font-size:1rem;
+    padding: 1.5px 6px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
 .header-menu .menu-items  .MuiSvgIcon-root:hover {
     color: var(--primary);
 }

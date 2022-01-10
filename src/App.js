@@ -8,8 +8,7 @@ import "./App.css";
 const App = () => {
 	const [loading, setLoading] = useState(true);
 
-	// Delay product display to display Birthday message
-	setTimeout(() => setLoading(false), 2000);
+	setTimeout(() => setLoading(false), 100);
 
 	return !loading ? (
 		<Router>

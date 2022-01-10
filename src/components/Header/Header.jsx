@@ -30,14 +30,14 @@ const Header = () => {
 			<div className="header-menu">
 				<div className="menu-items">
 					<Link to="/cart">
-						<IconButton>
+						<IconButton style={{ position: "relative" }}>
 							<ShoppingCartOutlinedIcon />
+							<span className="cart-counter">4</span>
 						</IconButton>
 					</Link>
-					<IconButton>
-						<Badge counter={5}>
-							<EmailOutlinedIcon />
-						</Badge>
+					<IconButton style={{ position: "relative" }}>
+						<EmailOutlinedIcon />
+						<span className="notification-counter">2</span>
 					</IconButton>
 				</div>
 				{user ? (
