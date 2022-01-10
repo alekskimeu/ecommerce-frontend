@@ -1,5 +1,5 @@
 
-# Santy's Night Light
+# Noelas client
 
 Online shop website design. 
 
@@ -14,13 +14,13 @@ Online shop website design.
 Clone the project
 
 ```bash
-  git clone https://github.com/alekskimeu/santys
+  git clone https://github.com/alekskimeu/noelas-client
 ```
 
 Go to the cloned project
 
 ```bash
-  cd santys
+  cd noelas-client
 ```
 
 Install dependencies
@@ -37,7 +37,5 @@ Run the project with npm
 
 ## Tech Stack
 
-**Client:** React, Vanilla CSS, Material UI Icons
-
-**Server:** Sanity CMS
+**Frontend:** React, Vanilla CSS, Material UI Icons
 
