@@ -13,7 +13,7 @@ const App = () => {
 	return !loading ? (
 		<Router>
 			<div className="app">
-				<Header />
+				{/* <Header /> */}
 				<div className="app-wrapper container">
 					<Routes>
 						<Route path="/" exact element={<Home />} />
