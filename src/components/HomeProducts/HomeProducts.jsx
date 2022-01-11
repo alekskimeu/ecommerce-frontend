@@ -5,10 +5,10 @@ import ChevronRightOutlinedIcon from "@material-ui/icons/ChevronRightOutlined";
 
 import { Product } from "..";
 
-import "./Products.css";
+import "./HomeProducts.css";
 import { IconButton } from "@material-ui/core";
 
-const Products = ({ products, title }) => {
+const HomeProducts = ({ products, title }) => {
 	return (
 		<div className="products container">
 			<div className="products-header">
@@ -38,4 +38,4 @@ const Products = ({ products, title }) => {
 	);
 };
 
-export default Products;
+export default HomeProducts;

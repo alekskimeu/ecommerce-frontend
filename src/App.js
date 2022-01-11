@@ -13,26 +13,28 @@ const App = () => {
 	return !loading ? (
 		<Router>
 			<div className="app">
-					<Header />
+				<Header />
+				<div className="app-wrapper container">
 					<Routes>
 						<Route path="/" exact element={<Home />} />
 						<Route path="/about" element={<About />} />
 						<Route path="/cart" element={<Cart />} />
 						<Route path="/checkout" element={<Checkout />} />
 						<Route path="/login" element={<Login />} />
-						<Route path="/thankyou" element={<OrderConfirmed/>} />
-						<Route path="/orders" element={<Orders />}/>
+						<Route path="/thankyou" element={<OrderConfirmed />} />
+						<Route path="/orders" element={<Orders />} />
 						<Route path="/register" element={<Register />} />
 						<Route path="/shop" element={<Shop />} />
 					</Routes>
+				</div>
 				<Footer />
 			</div>
 		</Router>
-			) : (
-			<div className="loader-container">
-				<Loader />
-			</div>
-			);
+	) : (
+		<div className="loader-container">
+			<Loader />
+		</div>
+	);
 };
 
 export default App;

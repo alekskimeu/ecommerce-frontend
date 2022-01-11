@@ -4,5 +4,7 @@ export { default as Header } from "./Header/Header";
 export { default as Hero } from "./Hero/Hero";
 export { default as Loader } from "./Loader/Loader";
 export { default as Product } from "./Product/Product";
-export { default as Products } from "./Products/Products";
+export { default as HomeProducts } from "./HomeProducts/HomeProducts";
+export { default as Search } from "./Search/Search";
+export { default as ShopProducts } from "./ShopProducts/ShopProducts";
 export { default as Subscribe } from "./Subscribe/Subscribe";
