@@ -7,7 +7,7 @@
 }
 
 .login-wrapper, .register-wrapper {
-    min-width:35vw;
+    min-width: 30vw;
     background-color: white;
     padding: 2rem;
     border-radius: .5rem;

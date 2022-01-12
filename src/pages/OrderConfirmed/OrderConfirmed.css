@@ -1,0 +1,25 @@
+.order-confirmed {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-wrapper .name {
+    color: white;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.order-wrapper .desc {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.order-wrapper a {
+    background-color: var(--primary);
+    color: white;
+    display: inline-block;
+    margin-top: 1.5rem;
+}

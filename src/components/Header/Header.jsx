@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
-import { Badge, IconButton } from "@material-ui/core";
+import { IconButton } from "@material-ui/core";
 import EmailOutlinedIcon from "@material-ui/icons/EmailOutlined";
 import ShoppingCartOutlinedIcon from "@material-ui/icons/ShoppingCartOutlined";
 import KeyboardArrowDownOutlinedIcon from "@material-ui/icons/KeyboardArrowDownOutlined";
