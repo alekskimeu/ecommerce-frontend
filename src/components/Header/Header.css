@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
 .header {
     width: 100%;
     padding: 1rem 2rem;
     border-bottom: 1px dashed rgb(54, 54, 54);
     position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 10;
     background-color: var(--bg-color);
 }
 
@@ -31,10 +33,20 @@
 }
 
 .header .brand .logo {
-    color: white;
+    color: var(--primary);
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 1.8px;
+    font-family: 'Exo 2', sans-serif;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.header .brand:hover .logo {
+    opacity: .9;
 }
 
 @media screen and (max-width: 924px) {
@@ -52,6 +64,7 @@
 .header-nav a {
     color: white;
     font-size: 1.2rem;
+    font-family: 'Exo 2', sans-serif;
     text-transform: uppercase;
     position: relative;
     transition: all .5s ease;
@@ -144,7 +157,7 @@
     align-items: center;
     font-size: 1.2rem;
     cursor: pointer;
-    
+    font-family: 'Exo 2', sans-serif;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;

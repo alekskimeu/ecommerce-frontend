@@ -21,7 +21,9 @@ const Header = () => {
 			<div className="container">
 				<div className="brand">
 					{/* <img src={logo} alt="" width="80" /> */}
-					<h1 className="logo">Noelas</h1>
+					<Link to="/" className="logo">
+						Noelas
+					</Link>
 				</div>
 				<div className="header-nav">
 					<Link to="/">Home</Link>

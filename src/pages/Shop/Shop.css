@@ -10,6 +10,7 @@
 
 .shop .dropdown {
     position: relative;
+    z-index: 2;
 }
 
 .shop .dropdown h4, .shop .dropdown .MuiSvgIcon-root {

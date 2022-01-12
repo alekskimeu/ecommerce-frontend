@@ -11,6 +11,7 @@
     margin: 8rem auto 0 auto;
     max-width: 90vw;
     opacity: .9;
+    position: relative;
 }
 
 .hero-wrapper {
@@ -22,12 +23,50 @@
     gap: 2rem;
 }
 
+.hero .hero-nav {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 43%;
+}
+
+.hero .hero-nav .MuiSvgIcon-root {
+    color: white;
+    border: 2px solid white;
+    font-size: 2.8rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.hero .hero-nav .MuiSvgIcon-root:hover {
+    opacity: .8;
+}
+
+.hero .hero-nav-right {
+    right: 35px;
+}
+
+.hero-wrapper .MuiSvgIcon-root {
+    color: white;
+}
+
 .hero .content-heading {
     color: white;
     font-size: 3rem;
     letter-spacing: 2px;
     font-weight: 700;
     text-transform: uppercase;
+    font-family: 'Exo 2', sans-serif;
+    margin-bottom: 1rem;
 } 
 
 .hero .description {
@@ -49,7 +88,7 @@
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2px;
-    padding: 1rem 1.2rem;
+    padding: 1.2rem 1.8rem;
     transition: all .5s ease;
     border-radius: .3rem;
     -webkit-border-radius: .3rem;
@@ -62,8 +101,12 @@
     -o-transition: all .5s ease;
 }
 
+.hero-cta a:hover, .hero-cta a:hover .MuiSvgIcon-root {
+    opacity: .8;
+}
+
 .hero-cta .MuiSvgIcon-root {
-    margin-left: 0.2rem;
+    margin-left: 0.5rem;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -72,5 +115,5 @@
 }
 
 .hero-cta a:hover .MuiSvgIcon-root {
-    margin-left: 0.4rem;
+    margin-left: 0.7rem;
 }

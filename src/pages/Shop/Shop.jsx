@@ -48,9 +48,7 @@ const Shop = () => {
 				</div>
 			</div>
 
-			{products && (
-				<ShopProducts title="Featured" products={featuredProducts} />
-			)}
+			{products && <ShopProducts title="Pillows" products={featuredProducts} />}
 		</div>
 	) : (
 		<Loader />

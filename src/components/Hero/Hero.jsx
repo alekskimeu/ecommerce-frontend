@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { IconButton } from "@material-ui/core";
 import ArrowForwardOutlinedIcon from "@material-ui/icons/ArrowForwardOutlined";
+import ChevronLeftOutlinedIcon from "@material-ui/icons/ChevronLeftOutlined";
+import ChevronRightOutlinedIcon from "@material-ui/icons/ChevronRightOutlined";
+
 import image from "../../assets/subscribe.png";
 
 import "./Hero.css";
@@ -8,6 +12,14 @@ import "./Hero.css";
 const Hero = () => {
 	return (
 		<div className="hero">
+			<div className="hero-nav">
+				<IconButton>
+					<ChevronLeftOutlinedIcon />
+				</IconButton>
+				<IconButton className="hero-nav-right">
+					<ChevronRightOutlinedIcon />
+				</IconButton>
+			</div>
 			<div className="hero-wrapper">
 				<div className="hero-content">
 					<h1 className="content-heading">The world</h1>
