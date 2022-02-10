@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     padding: 1rem 0;
-    border-top: 1px solid rgb(231, 231, 231);
+    border-top: 1px solid var(--border);
     opacity: .7;
 }
 

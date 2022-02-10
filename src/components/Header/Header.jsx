@@ -6,7 +6,7 @@ import ShoppingCartOutlinedIcon from "@material-ui/icons/ShoppingCartOutlined";
 import KeyboardArrowDownOutlinedIcon from "@material-ui/icons/KeyboardArrowDownOutlined";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 
-import logo from "../../assets/logo.jpeg";
+import logo from "../../assets/logo.png";
 
 import "./Header.css";
 
@@ -20,9 +20,8 @@ const Header = () => {
 		<header className="header">
 			<div className="container">
 				<div className="brand">
-					{/* <img src={logo} alt="" width="80" /> */}
 					<Link to="/" className="logo">
-						Noelas
+						<img src={logo} alt="" width={50} />
 					</Link>
 				</div>
 				<div className="header-nav">
