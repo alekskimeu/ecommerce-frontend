@@ -6,5 +6,7 @@ export { default as Loader } from "./Loader/Loader";
 export { default as Product } from "./Product/Product";
 export { default as HomeProducts } from "./HomeProducts/HomeProducts";
 export { default as Search } from "./Search/Search";
+export { default as SimilarProduct } from "./SimilarProduct/SimilarProduct";
+export { default as SimilarProducts } from "./SimilarProducts/SimilarProducts";
 export { default as ShopProducts } from "./ShopProducts/ShopProducts";
 export { default as Subscribe } from "./Subscribe/Subscribe";

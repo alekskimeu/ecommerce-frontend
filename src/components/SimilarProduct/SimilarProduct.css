@@ -1,0 +1,71 @@
+.product-card {
+    display: flex;
+    border-radius: .3rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
+}
+
+.product-card img {
+    max-width: 100%;
+    flex: 1;
+}
+
+.product-card .product-item-info {
+    flex: 1;
+    border: 1px solid lightgray;
+    border-left: none;
+    padding: 1rem;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+
+}
+
+.product-card .name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: .5rem;
+}
+
+.product-card .price {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-card .product-item-cta {
+    display: inline-block;
+}
+
+.product-card .btn-more {
+    background-color: var(--primary);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .4rem 1rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border: none;
+    color: white;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.product-card .btn-more .MuiSvgIcon-root {
+    margin-left: 0.3rem;
+}
+
+.product-card .btn-more:hover {
+    opacity: 1;
+    text-decoration: none;
+}

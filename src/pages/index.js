@@ -5,5 +5,6 @@ export { default as Home } from "./Home/Home";
 export { default as Login } from "./Login/Login";
 export { default as OrderConfirmed } from "./OrderConfirmed/OrderConfirmed";
 export { default as Orders } from "./Orders/Orders";
+export { default as ProductDetail } from "./ProductDetail/ProductDetail";
 export { default as Register } from "./Register/Register";
 export { default as Shop } from "./Shop/Shop";

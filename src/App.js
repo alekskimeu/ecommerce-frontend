@@ -1,6 +1,17 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import {About, Cart, Checkout, Home, Login, OrderConfirmed, Orders, Register, Shop} from "./pages";
+import {
+	About,
+	Cart,
+	Checkout,
+	Home,
+	Login,
+	OrderConfirmed,
+	Orders,
+	ProductDetail,
+	Register,
+	Shop,
+} from "./pages";
 import { Footer, Header, Loader } from "./components";
 
 import "./App.css";
@@ -21,10 +32,11 @@ const App = () => {
 						<Route path="/cart" element={<Cart />} />
 						<Route path="/checkout" element={<Checkout />} />
 						<Route path="/login" element={<Login />} />
-						<Route path="/thankyou" element={<OrderConfirmed />} />
 						<Route path="/orders" element={<Orders />} />
+						<Route path="/details" element={<ProductDetail />} />
 						<Route path="/register" element={<Register />} />
 						<Route path="/shop" element={<Shop />} />
+						<Route path="/thankyou" element={<OrderConfirmed />} />
 					</Routes>
 				</div>
 				<Footer />
