@@ -82,7 +82,7 @@
 
 .hero-cta a {
     background-color: var(--bg-color);
-    color: white;
+    color: var(--secondary);
     display: flex;
     align-items: center;
     text-transform: uppercase;
@@ -102,10 +102,11 @@
 }
 
 .hero-cta a:hover, .hero-cta a:hover .MuiSvgIcon-root {
-    opacity: .8;
+    opacity: .9;
 }
 
 .hero-cta .MuiSvgIcon-root {
+    color: var(--secondary);
     margin-left: 0.5rem;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
