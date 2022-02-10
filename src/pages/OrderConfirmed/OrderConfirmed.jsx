@@ -8,16 +8,18 @@ const OrderConfirm = () => {
 	return (
 		<div className="order-confirmed">
 			<div className="order-wrapper">
-				<p className="name">Hello, Alex.</p>
+				<p className="name">Hello, <span>Alex.</span></p>
 				<p className="desc">
 					Your order <b>id</b> has been successfully placed. <br />
 					Expected delivery in 1 week <br />
 					Thank you for shopping with us!
 				</p>
 
-				<Link to="/shop" className="btn-shop">
-					Continue shopping <ArrowForwardOutlinedIcon />
-				</Link>
+				<div className="cta">
+					<Link to="/shop" className="btn-shop">
+						Continue shopping <ArrowForwardOutlinedIcon />
+					</Link>
+				</div>
 			</div>
 		</div>
 	);

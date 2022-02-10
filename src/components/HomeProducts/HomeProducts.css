@@ -44,27 +44,24 @@
     margin-bottom: 1rem;
 }
 
-.products-header .products-heading {
+.products .products-header .products-heading {
     font-size: 1.6rem;
-    opacity: .7;
     font-weight: 600;
-    color: white;
-    opacity: .8;
+    color: var(--secondary);
 }
 
 .products-header-nav {
     display: flex;
 }
 
-.products-header-nav h4 {
-    font-size: 1.2rem;
-    color: white;
-    opacity: .8;
+.products-header .products-header-nav h4 {
+    font-size: 1.4rem;
+    color: var(--secondary);
+    font-weight: 600;
 }
 
-.products-header .MuiSvgIcon-root {
-    color: white;
-    opacity: .8;
+.products-header .products-header-nav .MuiSvgIcon-root {
+    color: var(--secondary);
     font-size: 2rem;
 }
 

@@ -11,22 +11,30 @@
 }
 
 .order-wrapper .name {
-    color: white;
+    color: black;
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
 }
 
+.order-wrapper .name span {
+    font-weight: 600;
+}
+
 .order-wrapper .desc {
-    color: white;
+    color: black;
     font-size: 1.5rem;
     line-height: 1.8;
 }
 
+.order-wrapper .cta {
+    display: inline-block;
+}
 
 .order-wrapper .btn-shop {
-    background-color: var(--primary);
+    background-color: var(--secondary);
     color: white;
-    display: inline-block;
+    display: flex;
+    align-items: center;
     margin-top: 2rem;
     padding: .9rem 1.2rem;
     font-size: 1.4rem;
