@@ -65,7 +65,7 @@ const Checkout = () => {
 					<div className="order">
 						<img src={image} alt="" width={100} />
 						<div className="order-info">
-							<div className="order-info-header">
+						<div className="order-info-header">
 								<h2 className="item-name">Sneakers</h2>
 								<CancelIcon />
 							</div>

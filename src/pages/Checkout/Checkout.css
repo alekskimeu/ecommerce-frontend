@@ -25,7 +25,7 @@
     background-color: white;
     box-shadow: 2px 4px 8px var(--border);
     flex: .7;
-    padding: 1rem 2rem 3rem 2rem;
+    padding: 1rem 2rem 2rem 2rem;
     border-radius: .5rem;
     -webkit-border-radius: .5rem;
     -moz-border-radius: .5rem;
@@ -211,7 +211,8 @@
 
 /* Paymenyt */
 .payment {
-    box-shadow: 2px 4px 8px var(--border);
+        box-shadow: 2px 4px 8px var(--border);
+
     background-color: white;
 }
 
