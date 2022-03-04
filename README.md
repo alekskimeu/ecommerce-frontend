@@ -1,5 +1,5 @@
 
-# Noelas client
+# eCommerce Frontend
 
 Online shop website design. 
 
